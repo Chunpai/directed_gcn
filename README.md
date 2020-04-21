@@ -1,12 +1,5 @@
-# Graph Convolutional Networks
-
-This is a TensorFlow implementation of Graph Convolutional Networks for the task of (semi-supervised) classification of nodes in a graph, as described in our paper:
- 
-Thomas N. Kipf, Max Welling, [Semi-Supervised Classification with Graph Convolutional Networks](http://arxiv.org/abs/1609.02907) (ICLR 2017)
-
-For a high-level explanation, have a look at our blog post:
-
-Thomas Kipf, [Graph Convolutional Networks](http://tkipf.github.io/graph-convolutional-networks/) (2016)
+# Directed Graph Convolutional Networks with Logic Rules
+Extend GCN to deal with directed graph with logic rules.
 
 ## Installation
 
@@ -57,15 +50,3 @@ Our framework also supports batch-wise classification of multiple graph instance
 ![graph_classification](https://user-images.githubusercontent.com/7347296/34198790-eb5bec96-e56b-11e7-90d5-157800e042de.png)
 
 
-## Cite
-
-Please cite our paper if you use this code in your own work:
-
-```
-@inproceedings{kipf2017semi,
-  title={Semi-Supervised Classification with Graph Convolutional Networks},
-  author={Kipf, Thomas N. and Welling, Max},
-  booktitle={International Conference on Learning Representations (ICLR)},
-  year={2017}
-}
-```
